@@ -5,26 +5,73 @@
 /*	HISTORY:												*/
 /*		Date:									By 			*/
 /*		08/21/16	Initial design & coding 	M.T.Holland	*/
-/*															*/
-div#container {
-	width: 100%;
-	margin: 20px auto;
-	background: #FFFFFF;
-	padding: 0px;
+	
+body {
+	border:10px;
+	background: #777;
+	padding: 10px;
+	margin:15px;
+	}	
+
+header {
+	height: 50px;
+	background:blue;
+}
+nav {
+	height: 50px;
+	background:green;
+}													
+section {
+	padding: 2%;
+	margin:2%;
+	border:2%;
+	float: left;
+	height: 300px;
+	width: 40%;
+	background:red;
+}
+article {
+	padding: 2%;
+	margin:2%;
+	border:2%;
+	height: 200px;
+	background:yellow;
+}
+div#h1h2h3 {
+	padding: 2%;
+	margin:2%;
+	border:2%;
+	height:40px;
+	background:blue;	
+}
+div#p {
+	padding: 2%;
+	margin:2%;
+	border:2%;
+	height:40px;
+	background:blue;	
+}
+p {
+	text-align: center;
 }
 
-div#content {
-	width: 800px;
-	padding-top: 100px
+aside {
+	padding: 2%;
+	margin:2%;
+	border:2%;
+	float: right;
+	height: 300px;
+	width: 40%;
+	background:blue;
+}
+
+footer {
+	padding: 2%;
+	margin:2%;
+	border:2%;
+	clear:both;
+	height: 50px;
 	background:yellow;
 }
 
-div#header {
-	width: 100%;
-	height: 100px;
-	background: green;
-	color:white;
-	position: absolute;
-	top: 0px;
-}
 
